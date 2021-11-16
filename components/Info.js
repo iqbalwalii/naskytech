@@ -3,18 +3,23 @@ import { Container, Button } from "react-bootstrap";
 const Info = () => {
   return (
     <div
-      style={{ background: "#615e5e13", padding: "4rem" }}
+      style={{
+        background: "#615e5e13",
+        padding: "4rem",
+        height: "100vh",
+        display: "flex",
+      }}
       data-aos="fade-up"
     >
       <Container>
-        <h2
+        <h1
           className="text-center"
           data-aos="fade-left"
           data-aos-duration="1000"
         >
           Lorem ipsum dolor sit amet
           <br /> consectetur adipisicing elit.
-        </h2>
+        </h1>
         <p
           className="text-center text-muted"
           style={{ fontSize: ".9rem" }}
