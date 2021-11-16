@@ -1,0 +1,24 @@
+.container {
+  list-style: none;
+  counter-reset: item;
+}
+.container p {
+  margin: 5px;
+  margin-left: 2rem;
+}
+
+.container li {
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+.container li:before {
+  margin-right: 12px;
+  content: counter(item);
+  background: #157347;
+  border-radius: 50%;
+  height: 1.8rem;
+  color: white;
+  width: 1.9rem;
+  text-align: center;
+  display: inline-block;
+}

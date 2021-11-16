@@ -1,0 +1,22 @@
+.items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 7rem;
+}
+
+.items > div {
+  padding: 1rem;
+}
+
+.list {
+  color: #ffffffad;
+  list-style: none;
+}
+
+.bottom {
+  border-top: 1px solid #cccccc49;
+  padding-top: 1rem;
+}
+/*# sourceMappingURL=Item.module.css.map */
